@@ -1,0 +1,39 @@
+button.brown-pill{
+    background-color: rgb(144, 101, 3);
+    border: 2px solid rgb(144, 101, 3);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+button.brown-pill:hover{
+    color:  rgb(144, 101, 3);
+    background-color:#ffff;
+    border: 2px solid rgb(144, 101, 3);
+}
+
+
+
+button.green-pill{
+    background-color: green;
+    border:2px solid  green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+button.green-pill:hover{
+   color:  green;
+    background-color: #ffff;
+    cursor: pointer;
+    border: 2px solid green;
+
+}
