@@ -5,8 +5,8 @@
 
 
 button.brown-pill{
-    background-color: rgb(231, 162, 0);
-    border: 2px solid rgb(239, 168, 1);
+    background-color: rgb(144, 101, 3);
+    border: 2px solid rgb(144, 101, 3);
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -17,15 +17,15 @@ button.brown-pill{
 }
 
 button.brown-pill:hover{
-    color:  rgb(239, 168, 1);
+    color:  rgb(144, 101, 3);
     background-color:#ffff;
-    border: 2px solid rgb(239, 168, 1);
+    border: 2px solid rgb(144, 101, 3);
 }
 
 
 button.blue-pill{
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: rgb(5, 164, 250);
+    border: 2px solid rgb(5, 164, 250);
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -35,10 +35,10 @@ button.blue-pill{
     transition-duration: 0.4s;
 }
 button.blue-pill:hover{
-    color:  blue;
+    color:  rgb(5, 164, 250);
     background-color: #ffff;
     cursor: pointer;
-    border: 2px solid blue;
+    border: 2px solid rgb(5, 164, 250);
 }
 
 button.green-pill{
