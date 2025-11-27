@@ -9,13 +9,19 @@ function FunctionalDemo() {
   });
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(e.target.full_name.value);
-    console.log(e.target.email.value);
-    console.log(e.target.mobile.value);
+    setUserData({
+      fullname : e.target.full_name.value,
+      email : e.target.email.value,
+      phone : e.target.mobile.value
+    });
   }
 
   return (
     <div>
+      <h1>Name : {userData.fullname}</h1>
+      <h1>Email : {userData.email}</h1>
+      <h1>Phone : {userData.phone}</h1>
+      <br/>
       <form onSubmit={handleSubmit}>
         <h2>Name : <input name="full_name"/></h2>
         <h2>Email : <input name="email"/></h2>
