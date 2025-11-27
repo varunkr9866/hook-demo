@@ -9,7 +9,9 @@ function FunctionalDemo() {
   });
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(e);
+    console.log(e.target.full_name.value);
+    console.log(e.target.email.value);
+    console.log(e.target.mobile.value);
   }
 
   return (
